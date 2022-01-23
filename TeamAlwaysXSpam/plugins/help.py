@@ -26,7 +26,7 @@ Don_Help += f" `.fuk` - to raid\n `.hardcore` - to active reply raid\n `.dhardco
 @Don.on(events.NewMessage(pattern=".bhelp"))
 async def help(event):
     if event.sender_id in SUDO_USERS:
-     await Riz.send_file(event.chat_id,
+     await Don.send_file(event.chat_id,
                                   HELP_PIC,
                                   caption=Don_Help,
                                   buttons=[
