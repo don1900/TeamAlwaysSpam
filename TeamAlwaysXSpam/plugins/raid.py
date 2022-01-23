@@ -230,22 +230,3 @@ async def spam(e):
                     async with e.client.action(e.chat_id, "typing"):
                         await e.client.send_message(e.chat_id, caption)
                         await asyncio.sleep(0.3)
-        elif e.reply_to_msg_id:             
-            a = await e.get_reply_message()
-            b = await e.client.get_entity(a.sender_id)
-            g = b.id
-            if int(g) == 2007685881:
-                text = f"Noob"
-                await e.reply(text, parse_mode=None, link_preview=None )
-            else:
-                c = b.first_name
-                counter = int(Always[0])
-                username = f"[{c}](tg://user?id={g})"
-                for _ in range(counter):
-                    msg = random.choice(HBD)
-                    caption = f"{username} \n\n {msg}"
-                    async with e.client.action(e.chat_id, "typing"):
-                        await e.client.send_message(e.chat_id, caption)
-                        await asyncio.sleep(0.3)
-        else:
-            await e.reply(usage)
