@@ -1,4 +1,5 @@
 from .. import Don, Don2, Don3, Don4, Don5 , Don6, Don7, Don8, Don9, Don10, SUDO_USERS
+from telethon import events
 import os
 import random
 import sys
