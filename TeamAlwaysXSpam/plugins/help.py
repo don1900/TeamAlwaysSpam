@@ -34,3 +34,120 @@ async def help(event):
         ]
         ]
         )                      
+
+@Don2.on(events.NewMessage(pattern=".bhelp"))
+async def help(event):
+    if event.sender_id in SUDO_USERS:
+     await Don2.send_file(event.chat_id,
+                                  HELP_PIC,
+                                  caption=Don_Help,
+                                  buttons=[
+        [
+        Button.url("ᴄʀᴇᴀᴛᴏʀ", "https://t.me/Always_Don")
+        ]
+        ]
+        )                      
+  
+@Don3.on(events.NewMessage(pattern=".bhelp"))
+async def help(event):
+    if event.sender_id in SUDO_USERS:
+     await Don3.send_file(event.chat_id,
+                                  HELP_PIC,
+                                  caption=Don_Help,
+                                  buttons=[
+        [
+        Button.url("ᴄʀᴇᴀᴛᴏʀ", "https://t.me/Always_Don")
+        ]
+        ]
+        )                      
+
+@Don4.on(events.NewMessage(pattern=".bhelp"))
+async def help(event):
+    if event.sender_id in SUDO_USERS:
+     await Don4.send_file(event.chat_id,
+                                  HELP_PIC,
+                                  caption=Don_Help,
+                                  buttons=[
+        [
+        Button.url("ᴄʀᴇᴀᴛᴏʀ", "https://t.me/Always_Don")
+        ]
+        ]
+        )                      
+  
+@Don5.on(events.NewMessage(pattern=".bhelp"))
+async def help(event):
+    if event.sender_id in SUDO_USERS:
+     await Don5.send_file(event.chat_id,
+                                  HELP_PIC,
+                                  caption=Don_Help,
+                                  buttons=[
+        [
+        Button.url("ᴄʀᴇᴀᴛᴏʀ", "https://t.me/Always_Don")
+        ]
+        ]
+        )                      
+
+@Don6.on(events.NewMessage(pattern=".bhelp"))
+async def help(event):
+    if event.sender_id in SUDO_USERS:
+     await Don6.send_file(event.chat_id,
+                                  HELP_PIC,
+                                  caption=Don_Help,
+                                  buttons=[
+        [
+        Button.url("ᴄʀᴇᴀᴛᴏʀ", "https://t.me/Always_Don")
+        ]
+        ]
+        )                      
+    
+@Don7.on(events.NewMessage(pattern=".bhelp"))
+async def help(event):
+    if event.sender_id in SUDO_USERS:
+     await Don7.send_file(event.chat_id,
+                                  HELP_PIC,
+                                  caption=Don_Help,
+                                  buttons=[
+        [
+        Button.url("ᴄʀᴇᴀᴛᴏʀ", "https://t.me/Always_Don")
+        ]
+        ]
+        )                      
+    
+@Don8.on(events.NewMessage(pattern=".bhelp"))
+async def help(event):
+    if event.sender_id in SUDO_USERS:
+     await Don8.send_file(event.chat_id,
+                                  HELP_PIC,
+                                  caption=Don_Help,
+                                  buttons=[
+        [
+        Button.url("ᴄʀᴇᴀᴛᴏʀ", "https://t.me/Always_Don")
+        ]
+        ]
+        )                      
+    
+@Don9.on(events.NewMessage(pattern=".bhelp"))
+async def help(event):
+    if event.sender_id in SUDO_USERS:
+     await Don9.send_file(event.chat_id,
+                                  HELP_PIC,
+                                  caption=Don_Help,
+                                  buttons=[
+        [
+        Button.url("ᴄʀᴇᴀᴛᴏʀ", "https://t.me/Always_Don")
+        ]
+        ]
+        )                      
+   
+@Don10.on(events.NewMessage(pattern=".bhelp"))
+async def help(event):
+    if event.sender_id in SUDO_USERS:
+     await Don10.send_file(event.chat_id,
+                                  HELP_PIC,
+                                  caption=Don_Help,
+                                  buttons=[
+        [
+        Button.url("ᴄʀᴇᴀᴛᴏʀ", "https://t.me/Always_Don")
+        ]
+        ]
+        )                      
