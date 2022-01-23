@@ -1,4 +1,4 @@
-from .. import Don, SUDO_USERS, alwaysversion
+from .. import Don, Don2, Don3, Don4, Don5 , Don6, Don7, Don8, Don9, Don10, SUDO_USERS, alwaysversion
 from .. import ALIVE_PIC
 from telethon import events, version, Button
 from telethon.tl.custom import button
