@@ -34,3 +34,134 @@ async def alive(event):
         ]
         ]
         )
+    
+@Don2.on(events.NewMessage(pattern=".robot"))
+async def alive(event):
+    if event.sender_id in SUDO_USERS:
+     await Don.send_file(event.chat_id,
+                                  DON_PIC,
+                                  caption=always,
+                                  buttons=[
+        [
+        Button.url("Cᴏᴍᴍᴜɴɪᴛʏ", "https://t.me/Team_Always")
+        ]
+        ]
+        )
+
+@Don3.on(events.NewMessage(pattern=".robot"))
+async def alive(event):
+    if event.sender_id in SUDO_USERS:
+     await Don.send_file(event.chat_id,
+                                  DON_PIC,
+                                  caption=always,
+                                  buttons=[
+        [
+        Button.url("Cᴏᴍᴍᴜɴɪᴛʏ", "https://t.me/Team_Always")
+        ]
+        ]
+        )
+    
+@Don4.on(events.NewMessage(pattern=".robot"))
+async def alive(event):
+    if event.sender_id in SUDO_USERS:
+     await Don.send_file(event.chat_id,
+                                  DON_PIC,
+                                  caption=always,
+                                  buttons=[
+        [
+        Button.url("Cᴏᴍᴍᴜɴɪᴛʏ", "https://t.me/Team_Always")
+        ]
+        ]
+        )
+    
+@Don5.on(events.NewMessage(pattern=".robot"))
+async def alive(event):
+    if event.sender_id in SUDO_USERS:
+     await Don.send_file(event.chat_id,
+                                  DON_PIC,
+                                  caption=always,
+                                  buttons=[
+        [
+        Button.url("Cᴏᴍᴍᴜɴɪᴛʏ", "https://t.me/Team_Always")
+        ]
+        ]
+        )
+   
+@Don6.on(events.NewMessage(pattern=".robot"))
+async def alive(event):
+    if event.sender_id in SUDO_USERS:
+     await Don.send_file(event.chat_id,
+                                  DON_PIC,
+                                  caption=always,
+                                  buttons=[
+        [
+        Button.url("Cᴏᴍᴍᴜɴɪᴛʏ", "https://t.me/Team_Always")
+        ]
+        ]
+        )
+    
+@Don6.on(events.NewMessage(pattern=".robot"))
+async def alive(event):
+    if event.sender_id in SUDO_USERS:
+     await Don.send_file(event.chat_id,
+                                  DON_PIC,
+                                  caption=always,
+                                  buttons=[
+        [
+        Button.url("Cᴏᴍᴍᴜɴɪᴛʏ", "https://t.me/Team_Always")
+        ]
+        ]
+        )
+    
+@Don7.on(events.NewMessage(pattern=".robot"))
+async def alive(event):
+    if event.sender_id in SUDO_USERS:
+     await Don.send_file(event.chat_id,
+                                  DON_PIC,
+                                  caption=always,
+                                  buttons=[
+        [
+        Button.url("Cᴏᴍᴍᴜɴɪᴛʏ", "https://t.me/Team_Always")
+        ]
+        ]
+        )
+    
+    
+@Don8.on(events.NewMessage(pattern=".robot"))
+async def alive(event):
+    if event.sender_id in SUDO_USERS:
+     await Don.send_file(event.chat_id,
+                                  DON_PIC,
+                                  caption=always,
+                                  buttons=[
+        [
+        Button.url("Cᴏᴍᴍᴜɴɪᴛʏ", "https://t.me/Team_Always")
+        ]
+        ]
+        )
+    
+@Don9.on(events.NewMessage(pattern=".robot"))
+async def alive(event):
+    if event.sender_id in SUDO_USERS:
+     await Don.send_file(event.chat_id,
+                                  DON_PIC,
+                                  caption=always,
+                                  buttons=[
+        [
+        Button.url("Cᴏᴍᴍᴜɴɪᴛʏ", "https://t.me/Team_Always")
+        ]
+        ]
+        )
+    
+@Don2.on(events.NewMessage(pattern=".robot"))
+async def alive(event):
+    if event.sender_id in SUDO_USERS:
+     await Don.send_file(event.chat_id,
+                                  DON_PIC,
+                                  caption=always,
+                                  buttons=[
+        [
+        Button.url("Cᴏᴍᴍᴜɴɪᴛʏ", "https://t.me/Team_Always")
+        ]
+        ]
+        )
