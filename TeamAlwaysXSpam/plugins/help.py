@@ -28,7 +28,7 @@ async def help(event):
     if event.sender_id in SUDO_USERS:
      await Riz.send_file(event.chat_id,
                                   HELP_PIC,
-                                  caption=Riz_Help,
+                                  caption=Don_Help,
                                   buttons=[
         [
         Button.url("ᴄʀᴇᴀᴛᴏʀ", "https://t.me/Always_Don")
