@@ -8,7 +8,6 @@ HELP_PIC = "https://telegra.ph/file/4cc84cabf3ee789d64ce0.jpg"
 
 Don_Help = "🔥 Tᴇᴀᴍ Aʟᴡᴀʏꜱ 🔥\n\n"
  
-Don_Help += f"__ᴄᴍᴅs ᴀᴠᴀɪʟᴀʙʟᴇ ɪɴ ʀɪᴢᴏᴇʟ x sᴘᴀᴍ__\n\n"
 
 Don_Help += f" ↧ 𝚄𝚂𝙴𝚁𝙱𝙾𝚃 𝙲𝙼𝙳𝚂 ↧\n\n"
 
