@@ -1,5 +1,5 @@
 build:
   docker:
-    Riz: Dockerfile
+    Don: Dockerfile
 run:
-  Riz: python3 -m TeamAlwaysXSpam
+  Don: python3 -m TeamAlwaysXSpam
