@@ -22,7 +22,7 @@ always += f" **•⭕️• Bot Vᴇʀsɪᴏɴ**  : `{alwaysversion}`\n"
 always += f" **•⭕️• Cʀᴇᴀᴛᴏʀ**  : [Dᴏɴ](t.me/Always_Don)\n\n"
          
                                     
-@Don.on(events.NewMessage(pattern=".robot"))
+@Don.on(events.NewMessage(pattern=".alive"))
 async def alive(event):
     if event.sender_id in SUDO_USERS:
      await Don.send_file(event.chat_id,
@@ -35,7 +35,7 @@ async def alive(event):
         ]
         )
     
-@Don2.on(events.NewMessage(pattern=".robot"))
+@Don2.on(events.NewMessage(pattern=".alive"))
 async def alive(event):
     if event.sender_id in SUDO_USERS:
      await Don2.send_file(event.chat_id,
@@ -48,7 +48,7 @@ async def alive(event):
         ]
         )
 
-@Don3.on(events.NewMessage(pattern=".robot"))
+@Don3.on(events.NewMessage(pattern=".alive"))
 async def alive(event):
     if event.sender_id in SUDO_USERS:
      await Don3.send_file(event.chat_id,
@@ -61,7 +61,7 @@ async def alive(event):
         ]
         )
     
-@Don4.on(events.NewMessage(pattern=".robot"))
+@Don4.on(events.NewMessage(pattern=".alive"))
 async def alive(event):
     if event.sender_id in SUDO_USERS:
      await Don4.send_file(event.chat_id,
@@ -74,7 +74,7 @@ async def alive(event):
         ]
         )
     
-@Don5.on(events.NewMessage(pattern=".robot"))
+@Don5.on(events.NewMessage(pattern=".alive"))
 async def alive(event):
     if event.sender_id in SUDO_USERS:
      await Don5.send_file(event.chat_id,
@@ -87,7 +87,7 @@ async def alive(event):
         ]
         )
    
-@Don6.on(events.NewMessage(pattern=".robot"))
+@Don6.on(events.NewMessage(pattern=".alive"))
 async def alive(event):
     if event.sender_id in SUDO_USERS:
      await Don6.send_file(event.chat_id,
@@ -100,7 +100,7 @@ async def alive(event):
         ]
         )
     
-@Don7.on(events.NewMessage(pattern=".robot"))
+@Don7.on(events.NewMessage(pattern=".alive"))
 async def alive(event):
     if event.sender_id in SUDO_USERS:
      await Don7.send_file(event.chat_id,
@@ -113,7 +113,7 @@ async def alive(event):
         ]
         )
     
-@Don8.on(events.NewMessage(pattern=".robot"))
+@Don8.on(events.NewMessage(pattern=".alive"))
 async def alive(event):
     if event.sender_id in SUDO_USERS:
      await Don8.send_file(event.chat_id,
@@ -127,7 +127,7 @@ async def alive(event):
         )
     
     
-@Don9.on(events.NewMessage(pattern=".robot"))
+@Don9.on(events.NewMessage(pattern=".alive"))
 async def alive(event):
     if event.sender_id in SUDO_USERS:
      await Don9.send_file(event.chat_id,
@@ -140,7 +140,7 @@ async def alive(event):
         ]
         )
     
-@Don10.on(events.NewMessage(pattern=".robot"))
+@Don10.on(events.NewMessage(pattern=".alive"))
 async def alive(event):
     if event.sender_id in SUDO_USERS:
      await Don10.send_file(event.chat_id,
