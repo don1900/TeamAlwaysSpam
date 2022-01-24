@@ -9,16 +9,16 @@ import random
 import sys
     
 
-@Don.on(events.NewMessage(pattern=r"\.bleave"))
-@Don2.on(events.NewMessage(pattern=r"\.bleave"))
-@Don3.on(events.NewMessage(pattern=r"\.bleave"))
-@Don4.on(events.NewMessage(pattern=r"\.bleave"))
-@Don5.on(events.NewMessage(pattern=r"\.bleave"))
-@Don6.on(events.NewMessage(pattern=r"\.bleave"))
-@Don7.on(events.NewMessage(pattern=r"\.bleave"))
-@Don8.on(events.NewMessage(pattern=r"\.bleave"))
-@Don9.on(events.NewMessage(pattern=r"\.bleave"))
-@Don10.on(events.NewMessage(pattern=r"\.bleave"))
+@Don.on(events.NewMessage(pattern=r"\.leave"))
+@Don2.on(events.NewMessage(pattern=r"\.leave"))
+@Don3.on(events.NewMessage(pattern=r"\.leave"))
+@Don4.on(events.NewMessage(pattern=r"\.leave"))
+@Don5.on(events.NewMessage(pattern=r"\.leave"))
+@Don6.on(events.NewMessage(pattern=r"\.leave"))
+@Don7.on(events.NewMessage(pattern=r"\.leave"))
+@Don8.on(events.NewMessage(pattern=r"\.leave"))
+@Don9.on(events.NewMessage(pattern=r"\.leave"))
+@Don10.on(events.NewMessage(pattern=r"\.leave"))
 async def _(e):
     usage = "Mᴏᴅᴜʟᴇ Nᴀᴍᴇ = Lᴇᴀᴠᴇ\n\nCommand:\n\n.leave <Channel or Chat ID>"
     if e.sender_id in SUDO_USERS:
