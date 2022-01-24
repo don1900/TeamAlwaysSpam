@@ -5,7 +5,7 @@
   <b>TEAMALWAYS SPAMBOT</b>
 </h1>
 
-[![Python](https://img.shields.io/badge/Python-v3.9.7-red)](https://www.python.org/)
+[![Python](https://img.shields.io/badge/Python-v3.9.7-blue)](https://www.python.org/)
 [![Open Source Love svg2](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/don1900/TeamAlwaysSpam)   
 ----
  
