@@ -32,16 +32,16 @@ def get_readable_time(seconds: int) -> str:
     return ping_time
 
 
-@Don.on(events.NewMessage(pattern=r"\.bot"))
-@Don2.on(events.NewMessage(pattern=r"\.bot"))
-@Don3.on(events.NewMessage(pattern=r"\.bot"))
-@Don4.on(events.NewMessage(pattern=r"\.bot"))
-@Don5.on(events.NewMessage(pattern=r"\.bot"))
-@Don6.on(events.NewMessage(pattern=r"\.bot"))
-@Don7.on(events.NewMessage(pattern=r"\.bot"))
-@Don8.on(events.NewMessage(pattern=r"\.bot"))
-@Don9.on(events.NewMessage(pattern=r"\.bot"))
-@Don10.on(events.NewMessage(pattern=r"\.bot"))
+@Don.on(events.NewMessage(pattern=r"\.ping"))
+@Don2.on(events.NewMessage(pattern=r"\.ping"))
+@Don3.on(events.NewMessage(pattern=r"\.ping"))
+@Don4.on(events.NewMessage(pattern=r"\.ping"))
+@Don5.on(events.NewMessage(pattern=r"\.ping"))
+@Don6.on(events.NewMessage(pattern=r"\.ping"))
+@Don7.on(events.NewMessage(pattern=r"\.ping"))
+@Don8.on(events.NewMessage(pattern=r"\.ping"))
+@Don9.on(events.NewMessage(pattern=r"\.ping"))
+@Don10.on(events.NewMessage(pattern=r"\.ping"))
 async def ping(e):
     if e.sender_id in SUDO_USERS:
         start = datetime.now()
