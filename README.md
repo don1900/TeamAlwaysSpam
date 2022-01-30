@@ -26,4 +26,4 @@
 
 # Credits
 * [Don](https://github.com/don1900)
-* [Aditya] (https://github.com/Legendary-Aditya-xD)
+* [Aditya](https://github.com/Legendary-Aditya-xD)
