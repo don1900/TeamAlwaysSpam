@@ -13,7 +13,7 @@
 - [x] Deploy 10 Bots in One time. 🔥
 - [x] Deploy Using Bot Token.🥳
 - [x] Best telegram spambot ever made yet.🎉
-- [y] Easy to deploy and fastest spambot made with love.😊
+- [x] Easy to deploy and fastest spambot made with love.😊
 
 # Deploy on heroku
 
@@ -26,3 +26,4 @@
 
 # Credits
 * [Don](https://github.com/don1900)
+* [Aditya] (https://github.com/Legendary-Aditya-xD)
