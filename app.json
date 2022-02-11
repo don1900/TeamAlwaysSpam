@@ -6,7 +6,7 @@
         "telegram",
         "telethon",
         "telegram-bot",
-        "RiZoeLXSpam",
+        "TeamAlwaysSpam",
         "SpamBots"
       ],   
   "repository": "https://github.com/don1900",
@@ -109,3 +109,4 @@
         }
     ]
 }
+ 
